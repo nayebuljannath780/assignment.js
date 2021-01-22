@@ -1,4 +1,3 @@
-
 // solving_Problem-1: kilometerToMeter_funtion_making
 function kilometerToMeter(num) {
     var result = num * 1000;
@@ -13,23 +12,23 @@ function kilometerToMeter(num) {
 
 
 //  solving_Problem-2: budgetCalculator_funtion_making
-function budgetCalculator(gori, phone, laptop) {
-    var goriPrice = 50;
+function budgetCalculator(ghori, phone, laptop) {
+    var ghoriPrice = 50;
     var phonePrice = 100;
     var laptopPrice = 500;
-    var totalGori = gori * 50;
+    var totalGhori = ghori * 50;
     var totalPhone = phone * 100;
     var totalLaptop = laptop * 500;
-    var totalcost = totalGori + totalPhone + totalLaptop;
+    var totalcost = totalGhori + totalPhone + totalLaptop;
 
     return totalcost;
 }
 /**
-    var amount = budgetCalculator(3, 1, 2);
+    var amount = budgetCalculator(3, 2, 2);
     console.log(amount);
  */
-    
- 
+
+
 
 
 
@@ -63,7 +62,7 @@ function hotelCost(days) {
 
 
 
- 
+
 // solving_Problem-4: megaFriend_function_making
 function megaFriend(n) {
     var longName = n[0];
